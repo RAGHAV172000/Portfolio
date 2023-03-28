@@ -45,7 +45,8 @@ const Portfolio = () => {
 								hoveredIndex===key&&(
 									<div>
 								<p>{item.projectName}</p>
-									<button>Visit</button>
+								<br/>
+									<a href={item.projectLink}>Visit</a>
 								</div>
 								)
 							}

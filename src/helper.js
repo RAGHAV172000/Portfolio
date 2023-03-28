@@ -100,7 +100,7 @@ export const config={
       },
       "repulse": {
         "distance": 200,
-        "duration": 0.4,
+        "duration": 0.1,
         "factor": 100,
         "speed": 1,
         "maxSpeed": 50,

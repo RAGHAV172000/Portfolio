@@ -67,9 +67,12 @@
 						position:absolute;
 						top:50%;
 						left: 50%;
+						padding: 30px;
+
 					transform: translate(-50%,-50%);
 						text-align: center;
 						p{
+							margin-top: 2px;
 							color:var(--selected-theme-sub-text-color);
 							margin: 0;
 							font-weight: 500;
@@ -79,7 +82,8 @@
 							animation: typingeffect 1s steps(30,end);
 							white-space: nowrap;
 						}
-						button{
+						a{
+							margin: 5px;
 							cursor: pointer;
 							margin-top: 15px;
 							padding: 10px 70px;
